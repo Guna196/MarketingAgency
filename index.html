@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Edge - Your Partner in Digital Growth</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f7fa; /* Light blue-gray background */
+            color: #333;
+        }
+    </style>
+    <!-- Google Tag Manager (GTM) Script - Replace GTM_ID with your actual GTM Container ID -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX'); // IMPORTANT: Replace GTM-XXXXXXX with your GTM ID
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+<body class="min-h-screen flex flex-col items-center p-4">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="w-full max-w-6xl bg-white shadow-lg rounded-xl p-8 mb-8 text-center">
+        <h1 class="text-6xl font-extrabold text-purple-700 mb-4 animate-fade-in-down">Digital Edge</h1>
+        <p class="text-2xl text-gray-700 mb-6">Innovative Digital Marketing Solutions for Your Business</p>
+        <nav class="flex justify-center space-x-8">
+            <a href="dm-landing.html" class="text-purple-600 hover:text-purple-800 text-lg font-medium transition duration-300 ease-in-out">Home</a>
+            <a href="dm-services.html" class="text-purple-600 hover:text-purple-800 text-lg font-medium transition duration-300 ease-in-out" id="servicesNavLink">Our Services</a>
+            <a href="dm-contact.html" class="text-purple-600 hover:text-purple-800 text-lg font-medium transition duration-300 ease-in-out" id="contactNavLink">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="w-full max-w-6xl bg-white shadow-lg rounded-xl p-8">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center justify-between mb-12 p-6 bg-purple-50 rounded-lg shadow-inner">
+            <div class="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
+                <h2 class="text-5xl font-bold text-purple-800 mb-4">Grow Your Business Online</h2>
+                <p class="text-xl text-gray-700 mb-6">We craft tailored digital strategies to boost your online presence and drive results.</p>
+                <a href="dm-services.html" id="heroLearnMoreBtn" class="cta-button inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-purple-300 focus:ring-opacity-75" data-button-name="Hero Learn More">
+                    Learn About Our Services
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://placehold.co/600x400/D2B4DE/000000?text=Digital+Marketing" alt="Digital Marketing Concepts" class="rounded-lg shadow-lg w-full h-auto">
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">What We Offer</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                    <h3 class="text-2xl font-semibold text-purple-700 mb-3">Search Engine Optimization (SEO)</h3>
+                    <p class="text-gray-700 mb-4">Improve your organic rankings and drive more traffic to your site.</p>
+                    <a href="dm-services.html#seo" class="service-link text-indigo-600 hover:text-indigo-800 font-medium" data-service-name="SEO">Learn More &rarr;</a>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                    <h3 class="text-2xl font-semibold text-purple-700 mb-3">Pay-Per-Click (PPC) Advertising</h3>
+                    <p class="text-gray-700 mb-4">Get instant visibility and targeted leads with effective ad campaigns.</p>
+                    <a href="dm-services.html#ppc" class="service-link text-indigo-600 hover:text-indigo-800 font-medium" data-service-name="PPC">Learn More &rarr;</a>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                    <h3 class="text-2xl font-semibold text-purple-700 mb-3">Social Media Marketing</h3>
+                    <p class="text-gray-700 mb-4">Build brand awareness and engage with your audience on social platforms.</p>
+                    <a href="dm-services.html#social" class="service-link text-indigo-600 hover:text-indigo-800 font-medium" data-service-name="Social Media">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="text-center bg-purple-50 p-8 rounded-xl shadow-inner">
+            <h2 class="text-3xl font-bold text-purple-800 mb-4">Ready to Transform Your Digital Presence?</h2>
+            <p class="text-lg text-gray-700 mb-6">Contact us today for a free consultation and personalized strategy.</p>
+            <a href="dm-contact.html" id="getQuoteBtn" class="cta-button inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full text-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300 focus:ring-opacity-75" data-button-name="Get a Free Quote">
+                Get a Free Quote
+            </a>
+        </section>
+    </main>
+
+    <footer class="w-full max-w-6xl mt-8 p-6 text-center text-gray-600 text-sm">
+        &copy; 2025 Digital Edge. All rights reserved.
+    </footer>
+
+    <script>
+        // Data Layer Helper Function
+        function pushToDataLayer(event_name, event_parameters) {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: event_name,
+                ...event_parameters
+            });
+            console.log(`GA4 Event Sent: ${event_name}`, event_parameters);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Event: Page View (customized for Landing Page)
+            pushToDataLayer('page_view', {
+                page_path: window.location.pathname,
+                page_title: document.title,
+                page_location: window.location.href,
+                website_theme: 'digital_marketing_agency',
+                page_type: 'landing_page'
+            });
+
+            // Event: 'click' for CTA Buttons
+            const ctaButtons = document.querySelectorAll('.cta-button');
+            ctaButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const buttonName = this.dataset.buttonName || this.textContent.trim();
+                    pushToDataLayer('click', { // Using 'click' for general CTA clicks
+                        event_category: 'CTA Click',
+                        event_label: `Clicked: ${buttonName}`,
+                        button_name: buttonName,
+                        page_path: window.location.pathname
+                    });
+                });
+            });
+
+            // Event: 'navigation_click' for Navigation Links and Service Overview Links
+            const navLinks = document.querySelectorAll('nav a, .service-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    const linkText = this.textContent.trim();
+                    const href = this.getAttribute('href');
+                    const serviceName = this.dataset.serviceName; // For service overview links
+
+                    pushToDataLayer('navigation_click', {
+                        event_category: 'Navigation',
+                        event_label: `Navigated to: ${linkText}`,
+                        link_text: linkText,
+                        link_url: href,
+                        ...(serviceName && { service_name: serviceName }), // Conditionally add service_name
+                        page_from: window.location.pathname
+                    });
+                });
+            });
+
+            // Event: 'scroll_depth' (Basic implementation for demonstration)
+            // This example sends events at 25%, 50%, 75%, and 100% scroll depth.
+            let scroll_percentages = [25, 50, 75, 100];
+            let scrolled_flags = { '25': false, '50': false, '75': false, '100': false };
+
+            window.addEventListener('scroll', function() {
+                const docHeight = document.documentElement.scrollHeight;
+                const winHeight = window.innerHeight;
+                const scrollY = window.scrollY;
+
+                const scrollPercentage = (scrollY / (docHeight - winHeight)) * 100;
+
+                scroll_percentages.forEach(percent => {
+                    if (scrollPercentage >= percent && !scrolled_flags[percent]) {
+                        pushToDataLayer('scroll_depth', {
+                            event_category: 'Engagement',
+                            event_label: `Scrolled ${percent}%`,
+                            scroll_percentage: percent,
+                            page_path: window.location.pathname
+                        });
+                        scrolled_flags[percent] = true;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
